@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HandleBars Practice</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="handlebars-v4.0.4.js">
+    </script>
+    <script type="text/javascript" src="app.js">
+    </script>
+  </head>
+  <body>
+    <script id="entry-template" type="text/x-handlebars-template">
+        {{#each data}}
+          <img src='{{ images.fixed_height.url }}'>
+        {{/each}}
+    </script>
+
+  </body>
+</html>
